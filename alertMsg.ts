@@ -1,6 +1,6 @@
 import './styles/styles.css';
 
-class AlertaFixado {
+class FixedAlert {
     private message: string;
     private alertType: string;
     private container: HTMLElement;
@@ -50,4 +50,4 @@ class AlertaFixado {
     }
 }
 
-export default AlertaFixado;
+export default FixedAlert;
