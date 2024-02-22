@@ -19,3 +19,24 @@ npm install fixed-alert
 ```
 
 This command will install FixedAlert and allow you to leverage its capabilities for displaying fixed-top alerts with ease.
+
+## How to Use
+
+To use FixedAlert, instantiate the class by providing the message to be displayed and the Bootstrap color class from the following options:
+
+- `primary`
+- `secondary`
+- `success`
+- `danger`
+- `warning`
+- `info`
+- `light`
+- `dark`
+
+Here is an example:
+
+```typescript
+import FixedAlert from 'fixed-alert';
+
+// Instantiate the FixedAlert class with a message and Bootstrap color class
+const alertInstance = new FixedAlert('This is a sample alert message', 'success');
