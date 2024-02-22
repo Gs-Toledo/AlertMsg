@@ -1,5 +1,27 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.3"
-  }
+  },
+  "name": "fixed-alert",
+  "version": "1.0.0",
+  "description": "Easy to use Bootstrap alert library.",
+  "main": "alertMsg.ts",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gs-Toledo/AlertMsg.git"
+  },
+  "keywords": [
+    "alert",
+    "bootstrap"
+  ],
+  "author": "Giovanni Toledo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gs-Toledo/AlertMsg/issues"
+  },
+  "homepage": "https://github.com/Gs-Toledo/AlertMsg#readme"
 }
